@@ -12,7 +12,8 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="60dp"
         android:minHeight="60dp"
-        android:text="Report Emergency" />
+        android:text="Report Emergency"
+        android:onClick="reportButton" />
 
     <Button
         android:id="@+id/ButtonCall"
@@ -21,7 +22,8 @@
         android:layout_alignParentLeft="true"
         android:layout_below="@+id/buttonReport"
         android:minHeight="60dp"
-        android:text="Call Emergency Services" />
+        android:text="Call Emergency Services"
+        android:onClick="callButton" />
 
     <Button
         android:id="@+id/buttonHowto"
@@ -30,7 +32,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:text="How to use" />
+        android:text="How to use"
+        android:onClick="howToButton" />
 
     <Button
         android:id="@+id/buttonSettings"
@@ -39,7 +42,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
-        android:text="Settings" />
+        android:text="Settings"
+        android:onClick="settingsButton" />
 
     <Button
         android:id="@+id/ButtonHelp"
@@ -48,6 +52,7 @@
         android:layout_alignParentLeft="true"
         android:layout_below="@+id/ButtonCall"
         android:minHeight="60dp"
-        android:text="HELP!" />
+        android:text="HELP!"
+        android:onClick="helpButton" />
 
 </RelativeLayout>

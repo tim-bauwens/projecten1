@@ -3,10 +3,8 @@ package com.example.hulpdienstenapp;
 
 import android.os.Bundle;
 import android.app.Activity;
+import android.content.Intent;
 import android.view.View;
-import android.view.View.OnClickListener;
-import android.widget.Button;
-
 
 public class MainActivity extends Activity {
 
@@ -14,58 +12,33 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        
-        createButtonListeners();
     }
 
-    //creates all the event listeners for the buttons on the main activity
-	private void createButtonListeners() {
-		
-		Button buttonHowto = (Button) findViewById(R.id.buttonHowto);
-		Button buttonSettings = (Button) findViewById(R.id.buttonSettings);
-		Button buttonReport = (Button) findViewById(R.id.buttonReport);
-		Button ButtonCall = (Button) findViewById(R.id.ButtonCall);
-		Button ButtonHelp = (Button) findViewById(R.id.ButtonHelp);
+    
+    /** Called when the user clicks the report button */
+    public void reportButton(View view) {
+        Intent intent = new Intent(this, ReportActivity.class);
+        startActivity(intent);
+    }
+    
+    /** Called when the user clicks the call button */
+    public void callButton(View view) {
+    }
+    
+    /** Called when the user clicks the howTo button */
+    public void howToButton(View view) {
+        Intent intent = new Intent(this, HowToActivity.class);
+        startActivity(intent);
+    }
+    
+    /** Called when the user clicks the settings button */
+    public void settingsButton(View view) {
+        Intent intent = new Intent(this, SettingsActivity.class);
+        startActivity(intent);
+    }
+    
+    /** Called when the user clicks the help button */
+    public void helpButton(View view) {
 
-		buttonHowto.setOnClickListener(new OnClickListener()
-	    {
-	      public void onClick(View v)
-	      {
-
-	      }
-	    });
-		
-		buttonSettings.setOnClickListener(new OnClickListener()
-	    {
-	      public void onClick(View v)
-	      {
-
-	      }
-	    });
-		
-		buttonReport.setOnClickListener(new OnClickListener()
-	    {
-	      public void onClick(View v)
-	      {
-
-	      }
-	    });
-		
-		ButtonCall.setOnClickListener(new OnClickListener()
-	    {
-	      public void onClick(View v)
-	      {
-
-	      }
-	    });
-		
-		ButtonHelp.setOnClickListener(new OnClickListener()
-	    {
-	      public void onClick(View v)
-	      {
-
-	      }
-	    });
-		
-	}
+    }
 }

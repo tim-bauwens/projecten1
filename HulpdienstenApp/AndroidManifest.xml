@@ -24,6 +24,34 @@
             <category android:name="android.intent.category.LAUNCHER" />
         </intent-filter>
     	</activity>
+    	
+    	<activity
+        android:name="com.example.hulpdienstenapp.HowToActivity"
+        android:parentActivityName="com.example.hulpdienstenapp.MainActivity"
+        android:label="@string/title_activity_howto">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.myfirstapp.MainActivity" />
+	    </activity>
+	        
+    	<activity
+	        android:name="com.example.hulpdienstenapp.ReportActivity"
+	        android:parentActivityName="com.example.hulpdienstenapp.MainActivity" 
+	        android:label="@string/title_activity_report">
+	        <meta-data
+	            android:name="android.support.PARENT_ACTIVITY"
+	            android:value="com.example.myfirstapp.MainActivity" />
+	    </activity>
+    	
+    	<activity
+        android:name="com.example.hulpdienstenapp.SettingsActivity"
+        android:parentActivityName="com.example.hulpdienstenapp.MainActivity" 
+        android:label="@string/title_activity_settings">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.myfirstapp.MainActivity" />
+    	</activity>
+    	
         
     </application>
 
