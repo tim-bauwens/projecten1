@@ -1,8 +1,8 @@
 <resources>
 
-    <string name="app_name">Hulpdiensten App</string>
-    <string name="title_activity_howto">howto</string>
-    <string name="title_activity_report">report</string>
-    <string name="title_activity_settings">settings</string>
+    <string name="app_name">Hulpdiensten Applicatie</string>
+    <string name="title_activity_howto">Instructions</string>
+    <string name="title_activity_report">Report an Emergency</string>
+    <string name="title_activity_settings">Settings</string>
 
 </resources>

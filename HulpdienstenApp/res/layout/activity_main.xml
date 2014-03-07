@@ -12,8 +12,8 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="60dp"
         android:minHeight="60dp"
-        android:text="Report Emergency"
-        android:onClick="reportButton" />
+        android:onClick="reportButton"
+        android:text="@string/title_activity_report" />
 
     <Button
         android:id="@+id/ButtonCall"
@@ -21,29 +21,10 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_below="@+id/buttonReport"
+        android:layout_marginTop="10dp"
         android:minHeight="60dp"
-        android:text="Call Emergency Services"
-        android:onClick="callButton" />
-
-    <Button
-        android:id="@+id/buttonHowto"
-        style="?android:attr/buttonStyleSmall"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:text="How to use"
-        android:onClick="howToButton" />
-
-    <Button
-        android:id="@+id/buttonSettings"
-        style="?android:attr/buttonStyleSmall"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentTop="true"
-        android:text="Settings"
-        android:onClick="settingsButton" />
+        android:onClick="callButton"
+        android:text="Call Emergency Services" />
 
     <Button
         android:id="@+id/ButtonHelp"
@@ -51,8 +32,34 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_below="@+id/ButtonCall"
+        android:layout_marginTop="10dp"
         android:minHeight="60dp"
-        android:text="HELP!"
-        android:onClick="helpButton" />
+        android:onClick="helpButton"
+        android:text="HELP!" />
+
+    <Button
+        android:id="@+id/buttonHowto"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="15dp"
+        android:onClick="howToButton"
+        android:text="@string/title_activity_howto" />
+
+    <Button
+        android:id="@+id/buttonSettings"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/buttonHowto"
+        android:layout_alignBottom="@+id/buttonHowto"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="15dp"
+        android:layout_marginRight="15dp"
+        android:onClick="settingsButton"
+        android:text="@string/title_activity_settings" />
 
 </RelativeLayout>

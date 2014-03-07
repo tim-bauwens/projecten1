@@ -1,7 +1,90 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ViewFlipper xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ViewFlipperReport"
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
-    
 
-</RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/LayoutInfo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/buttonReturn"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:minHeight="30dp"
+            android:onClick="returnButton"
+            android:text="Return"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:text="Emergency Information"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layoutChoose"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/buttonCrime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="60dp"
+            android:onClick="crimeButton"
+            android:text="Crime" />
+
+        <Button
+            android:id="@+id/buttonAccident"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/buttonMedic"
+            android:layout_below="@+id/buttonMedic"
+            android:layout_marginTop="10dp"
+            android:onClick="accidentButton"
+            android:text="Car Accident" />
+
+        <Button
+            android:id="@+id/buttonFire"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/buttonCrime"
+            android:layout_marginTop="10dp"
+            android:onClick="fireButton"
+            android:text="Fire" />
+
+        <Button
+            android:id="@+id/buttonMedic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/buttonFire"
+            android:layout_marginTop="10dp"
+            android:onClick="emergencyButton"
+            android:text="Medical Emergency" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="Choose Emergency Type"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </RelativeLayout>
+
+</ViewFlipper>

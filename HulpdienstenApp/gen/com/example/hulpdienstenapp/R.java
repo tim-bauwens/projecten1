@@ -15,11 +15,19 @@ public final class R {
     }
     public static final class id {
         public static final int ButtonCall=0x7f060005;
-        public static final int ButtonHelp=0x7f060008;
+        public static final int ButtonHelp=0x7f060006;
         public static final int Frame1=0x7f060003;
-        public static final int buttonHowto=0x7f060006;
+        public static final int LayoutInfo=0x7f06000f;
+        public static final int ViewFlipperReport=0x7f060009;
+        public static final int buttonAccident=0x7f06000c;
+        public static final int buttonCrime=0x7f06000b;
+        public static final int buttonFire=0x7f06000e;
+        public static final int buttonHowto=0x7f060007;
+        public static final int buttonMedic=0x7f06000d;
         public static final int buttonReport=0x7f060004;
-        public static final int buttonSettings=0x7f060007;
+        public static final int buttonReturn=0x7f060010;
+        public static final int buttonSettings=0x7f060008;
+        public static final int layoutChoose=0x7f06000a;
         public static final int scrollView1=0x7f060001;
         public static final int textView1=0x7f060000;
         public static final int textView2=0x7f060002;
