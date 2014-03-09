@@ -10,6 +10,8 @@
         android:targetSdkVersion="19" />
     <uses-permission android:name="android.permission.INTERNET"></uses-permission>
 	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+	<uses-permission android:name="android.permission.CALL_PHONE"/>
     
     <application
         android:allowBackup="true"
@@ -27,7 +29,7 @@
     	</activity>
     	
     	<activity
-        android:name="com.example.hulpdienstenapp.HowToActivity"
+        android:name="com.example.hulpdienstenapp.InstructionsActivity"
         android:parentActivityName="com.example.hulpdienstenapp.MainActivity"
         android:label="@string/title_activity_howto">
         <meta-data

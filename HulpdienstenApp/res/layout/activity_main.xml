@@ -24,7 +24,7 @@
         android:layout_marginTop="10dp"
         android:minHeight="60dp"
         android:onClick="callButton"
-        android:text="Call Emergency Services" />
+        android:text="@string/title_activity_call" />
 
     <Button
         android:id="@+id/ButtonHelp"
@@ -35,7 +35,7 @@
         android:layout_marginTop="10dp"
         android:minHeight="60dp"
         android:onClick="helpButton"
-        android:text="HELP!" />
+        android:text="@string/title_activity_help" />
 
     <Button
         android:id="@+id/buttonHowto"
@@ -47,7 +47,7 @@
         android:layout_marginBottom="15dp"
         android:layout_marginLeft="15dp"
         android:onClick="howToButton"
-        android:text="@string/title_activity_howto" />
+        android:text="@string/title_activity_instructions" />
 
     <Button
         android:id="@+id/buttonSettings"

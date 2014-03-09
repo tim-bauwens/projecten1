@@ -1,6 +1,8 @@
 
 package com.example.hulpdienstenapp;
 
+import com.example.hulpdienstenapp.R;
+
 import android.os.Bundle;
 import android.app.Activity;
 import android.content.Intent;
@@ -27,7 +29,7 @@ public class MainActivity extends Activity {
     
     /** Called when the user clicks the howTo button */
     public void howToButton(View view) {
-        Intent intent = new Intent(this, HowToActivity.class);
+        Intent intent = new Intent(this, InstructionsActivity.class);
         startActivity(intent);
     }
     

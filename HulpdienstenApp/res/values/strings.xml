@@ -1,8 +1,10 @@
 <resources>
 
-    <string name="app_name">Hulpdiensten Applicatie</string>
-    <string name="title_activity_howto">Instructions</string>
+    <string name="app_name">Emergency Reporter</string>
+    <string name="title_activity_instructions">Instructions</string>
     <string name="title_activity_report">Report an Emergency</string>
     <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_call">Call Emergency Services</string>
+    <string name="title_activity_help">HELP !</string>
 
 </resources>
