@@ -3,9 +3,13 @@ package com.example.hulpdienstenapp;
 
 import com.example.hulpdienstenapp.R;
 
+import android.net.Uri;
 import android.os.Bundle;
 import android.app.Activity;
+import android.content.ActivityNotFoundException;
 import android.content.Intent;
+import android.content.SharedPreferences;
+import android.util.Log;
 import android.view.View;
 
 public class MainActivity extends Activity {
@@ -25,6 +29,16 @@ public class MainActivity extends Activity {
     
     /** Called when the user clicks the call button */
     public void callButton(View view) {
+    	SharedPreferences settings = getApplicationContext().getSharedPreferences("data", 0);
+    	int phonenumber = settings.getInt("phonenumber",0);
+        try {
+                Intent callIntent = new Intent(Intent.ACTION_CALL);
+                callIntent.setData(Uri.parse("tel:" + phonenumber));
+                startActivity(callIntent);
+            }
+        catch (ActivityNotFoundException activityException) {
+                Log.e("Calling a Phone Number", "Call failed", activityException);
+        }
     }
     
     /** Called when the user clicks the howTo button */

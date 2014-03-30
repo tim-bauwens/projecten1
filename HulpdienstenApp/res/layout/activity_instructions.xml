@@ -9,7 +9,7 @@
         android:layout_height="634dp" >
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/textViewInfo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
@@ -20,11 +20,11 @@
             android:textAppearance="?android:attr/textAppearanceMedium" />
 
         <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/textViewNumber"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/textView2"
-            android:layout_below="@+id/textView2"
+            android:layout_alignLeft="@+id/textViewInfo"
+            android:layout_below="@+id/textViewInfo"
             android:layout_marginRight="20dp"
             android:layout_marginTop="20dp"
             android:text="This function is meant for witnesses of an emergency. Select the type of emergency you want to report and fill in the provided fields with information about the situation." />
@@ -33,8 +33,8 @@
             android:id="@+id/textView4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/textView3"
-            android:layout_below="@+id/textView3"
+            android:layout_alignLeft="@+id/textViewNumber"
+            android:layout_below="@+id/textViewNumber"
             android:layout_marginTop="20dp"
             android:text="@string/title_activity_call"
             android:textAppearance="?android:attr/textAppearanceMedium" />

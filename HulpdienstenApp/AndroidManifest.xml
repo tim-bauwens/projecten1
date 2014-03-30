@@ -31,7 +31,7 @@
     	<activity
         android:name="com.example.hulpdienstenapp.InstructionsActivity"
         android:parentActivityName="com.example.hulpdienstenapp.MainActivity"
-        android:label="@string/title_activity_howto">
+        android:label="@string/title_activity_instructions">
         <meta-data
             android:name="android.support.PARENT_ACTIVITY"
             android:value="com.example.myfirstapp.MainActivity" />
