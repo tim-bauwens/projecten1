@@ -534,4 +534,50 @@
 	    <item name="ZW:Zimbabwe"></item>
 	    <item name="AX:Åland Islands"></item>
 	</array>
+	
+	<array name = "typesCrime" type="style">
+	    <item>Assault</item>
+	    <item>Battery</item>
+	    <item>False Imprisonment</item>
+	    <item>Kidnapping</item>
+	    <item>Robbery</item>
+	    <item>Sexual Assault</item>
+	    <item>Murder</item>
+	    <item>Manslaughter</item>
+	    <item>Arson</item>
+	    <item>Burglary</item>
+	    <item>Theft</item>
+	</array>
+	
+	<array name = "typesFire" type="style">
+	    <item>Ordinary combustible</item>
+	    <item>Flammable liquid / gas</item>
+	    <item>Electrical</item>
+	    <item>Metal</item>
+	    <item>Cooking oils and fats</item>
+	    <item>Explosives</item>
+	</array>
+	
+	<array name = "typesMedical" type="style">
+	    <item>Injury and illness</item>
+	    <item>Infection</item>
+	    <item>Cardiac and circulatory</item>
+	    <item>Metabolic</item>
+	    <item>Neurological</item>
+	    <item>Psychiatric</item>
+	    <item>Respiratory</item>
+	    <item>Shock</item>
+	    <item>Gynecologic</item>
+	</array>
+	
+	<array name = "typesAccident" type="style">
+	    <item>head on collision</item>
+	    <item>run-off-road collision</item>
+	    <item>rear-end collision</item>
+	    <item>side impact</item>
+	    <item>chain collision</item>
+	    <item>pedestrian(s) / cyclist(s)</item>
+	    <item>animal(s)</item>
+	</array>
+	
 </resources>

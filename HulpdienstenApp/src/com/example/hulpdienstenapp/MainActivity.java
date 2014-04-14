@@ -17,6 +17,10 @@ public class MainActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        //if not registered
+        //Intent intent = new Intent(this, RegisterActivity.class);
+        //startActivity(intent);
+        //else
         setContentView(R.layout.activity_main);
     }
 

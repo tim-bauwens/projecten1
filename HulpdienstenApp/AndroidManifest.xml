@@ -6,12 +6,12 @@
     >
 
     <uses-sdk
-        android:minSdkVersion="8"
+        android:minSdkVersion="9"
         android:targetSdkVersion="19" />
     <uses-permission android:name="android.permission.INTERNET"></uses-permission>
-	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
 	<uses-permission android:name="android.permission.CALL_PHONE"/>
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
     
     <application
         android:allowBackup="true"
@@ -50,6 +50,15 @@
         android:name="com.example.hulpdienstenapp.SettingsActivity"
         android:parentActivityName="com.example.hulpdienstenapp.MainActivity" 
         android:label="@string/title_activity_settings">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.myfirstapp.MainActivity" />
+    	</activity>
+    	
+ 	    <activity
+        android:name="com.example.hulpdienstenapp.RegisterActivity"
+        android:parentActivityName="com.example.hulpdienstenapp.MainActivity" 
+        android:label="@string/title_activity_register">
         <meta-data
             android:name="android.support.PARENT_ACTIVITY"
             android:value="com.example.myfirstapp.MainActivity" />

@@ -46,7 +46,7 @@
             android:layout_alignParentLeft="true"
             android:layout_below="@+id/buttonFire"
             android:layout_marginTop="10dp"
-            android:onClick="emergencyButton"
+            android:onClick="medicButton"
             android:text="Medical Emergency" />
 
         <TextView
@@ -75,20 +75,18 @@
             android:layout_marginLeft="20dp"
             android:minHeight="30dp"
             android:onClick="returnButton"
-            android:text="Return"
+            android:text="Return to Selection"
             android:textSize="12sp" />
 
         <ScrollView
             android:id="@+id/scrollView1"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentLeft="true"
+            android:layout_height="fill_parent"
             android:layout_below="@+id/buttonReturn" >
 
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="415dp" >
+                android:layout_height="512dp" >
 
                 <TextView
                     android:id="@+id/textViewNumber"
@@ -111,10 +109,7 @@
                     android:layout_marginRight="20dp"
                     android:layout_marginTop="20dp"
                     android:ems="10"
-                    android:inputType="textPostalAddress" >
-
-                    <requestFocus />
-                </EditText>
+                    android:inputType="text" />
 
                 <TextView
                     android:id="@+id/TextView01"
@@ -202,10 +197,18 @@
                     android:ems="10"
                     android:inputType="textMultiLine" />
 
+                <Button
+                    android:id="@+id/buttonSend"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@+id/editTextDescription"
+                    android:layout_marginTop="20dp"
+                    android:onClick="sendButton"
+                    android:text="Send" />
+
             </RelativeLayout>
-
         </ScrollView>
-
     </RelativeLayout>
 
 </ViewFlipper>
