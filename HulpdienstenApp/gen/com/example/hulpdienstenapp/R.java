@@ -39,10 +39,12 @@ public final class R {
         public static final int buttonHowto=0x7f07000c;
         public static final int buttonLogin=0x7f070011;
         public static final int buttonMedic=0x7f070016;
+        public static final int buttonRemoveUser=0x7f070026;
         public static final int buttonReport=0x7f070009;
         public static final int buttonReturn=0x7f070019;
         public static final int buttonSend=0x7f070023;
         public static final int buttonSettings=0x7f07000d;
+        public static final int buttonShowUser=0x7f070027;
         public static final int checkBoxCountries=0x7f070024;
         public static final int editTextDescription=0x7f070022;
         public static final int editTextLocation=0x7f07001b;

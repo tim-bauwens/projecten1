@@ -1,6 +1,7 @@
 package com.example.hulpdienstenapp;
 
 import android.app.Activity;
+import android.app.Dialog;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
@@ -97,5 +98,35 @@ public class SettingsActivity extends Activity {
         	String country = settings.getString("country","AF:Afghanistan");
         	spinnerCountry.setSelection(countryAdapter.getPosition(country));
         }
+    }
+    
+    /** Called when the user clicks the Show User button */
+    public void showUserButton(View view) {
+    	SharedPreferences settings = getApplicationContext().getSharedPreferences("data", 0);
+    	String username = settings.getString("username","");
+    	String password = settings.getString("password","");
+    	boolean loggedIn = settings.getBoolean("loggedIn",false);
+    	
+        Dialog dialog = new Dialog(this);
+        TextView dialogText = new TextView(this);
+        dialogText.setPadding(15, 15, 15, 15);
+        dialog.setContentView(dialogText);
+        
+        dialog.setTitle("User Data");
+    	dialogText.setText("username: "+username+"\npassword: "+password+"\nloggedIn: "+loggedIn);
+    	
+    	dialog.show();
+        
+        
+    }
+    
+    /** Called when the user clicks the Remove User button */
+    public void removeUserButton(View view) {
+    	SharedPreferences settings = getApplicationContext().getSharedPreferences("data", 0);
+    	SharedPreferences.Editor editor = settings.edit();
+    	editor.putString("username", null);
+    	editor.putString("password", null);
+		editor.putBoolean("loggedIn", false);
+		editor.commit();
     }
 }

@@ -1,0 +1,39 @@
+C:\Users\Lisanne\Desktop\ERClient\ERClient\bin\Debug\ERClient.exe.config
+C:\Users\Lisanne\Desktop\ERClient\ERClient\obj\Debug\ERClient.csprojResolveAssemblyReference.cache
+C:\Users\Lisanne\Desktop\ERClient\ERClient\obj\Debug\ERClient.Form1.resources
+C:\Users\Lisanne\Desktop\ERClient\ERClient\obj\Debug\ERClient.Properties.Resources.resources
+C:\Users\Lisanne\Desktop\ERClient\ERClient\obj\Debug\ERClient.csproj.GenerateResource.Cache
+C:\Users\Lisanne\Desktop\ERClient\ERClient\bin\Debug\ERClient.exe
+C:\Users\Lisanne\Desktop\ERClient\ERClient\bin\Debug\ERClient.pdb
+C:\Users\Lisanne\Desktop\ERClient\ERClient\obj\Debug\ERClient.exe
+C:\Users\Lisanne\Desktop\ERClient\ERClient\obj\Debug\ERClient.pdb
+C:\Users\Lisanne\Desktop\ERClient\ERClient\bin\Debug\GMap.NET.Core.dll
+C:\Users\Lisanne\Desktop\ERClient\ERClient\bin\Debug\GMap.NET.WindowsForms.dll
+C:\Users\Lisanne\Desktop\ERClient\ERClient\bin\Debug\GMap.NET.Core.xml
+C:\Users\Lisanne\Desktop\ERClient\ERClient\bin\Debug\GMap.NET.WindowsForms.xml
+C:\Users\Lisanne\Desktop\ERClient\ERClient\bin\Debug\Json.dll
+C:\Users\Lisanne\Desktop\ERClient\ERClient\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Lisanne\Desktop\ERClient\ERClient\bin\Debug\Json.pdb
+C:\Users\Lisanne\Desktop\ERClient\ERClient\bin\Debug\Newtonsoft.Json.xml
+F:\ERClient\ERClient\bin\Debug\ERClient.exe.config
+F:\ERClient\ERClient\obj\Debug\ERClient.exe
+F:\ERClient\ERClient\obj\Debug\ERClient.pdb
+F:\ERClient\ERClient\obj\Debug\ERClient.csprojResolveAssemblyReference.cache
+F:\ERClient\ERClient\obj\Debug\ERClient.Form1.resources
+F:\ERClient\ERClient\obj\Debug\ERClient.Properties.Resources.resources
+F:\ERClient\ERClient\obj\Debug\ERClient.csproj.GenerateResource.Cache
+F:\ERClient\ERClient\bin\Debug\ERClient.exe
+F:\ERClient\ERClient\bin\Debug\ERClient.pdb
+F:\ERClient\ERClient\bin\Debug\GMap.NET.Core.dll
+F:\ERClient\ERClient\bin\Debug\GMap.NET.WindowsForms.dll
+F:\ERClient\ERClient\bin\Debug\Json.dll
+F:\ERClient\ERClient\bin\Debug\Newtonsoft.Json.dll
+F:\ERClient\ERClient\bin\Debug\System.Data.SQLite.dll
+F:\ERClient\ERClient\bin\Debug\GMap.NET.Core.xml
+F:\ERClient\ERClient\bin\Debug\GMap.NET.WindowsForms.xml
+F:\ERClient\ERClient\bin\Debug\Json.pdb
+F:\ERClient\ERClient\bin\Debug\Newtonsoft.Json.xml
+F:\ERClient\ERClient\bin\Debug\System.Data.SQLite.pdb
+C:\Users\Tim\Desktop\School\git repositories\projecten1\ERClient\ERClient\bin\Debug\ERClient.exe.config
+C:\Users\Tim\Desktop\School\git repositories\projecten1\ERClient\ERClient\obj\Debug\ERClient.exe
+C:\Users\Tim\Desktop\School\git repositories\projecten1\ERClient\ERClient\obj\Debug\ERClient.pdb

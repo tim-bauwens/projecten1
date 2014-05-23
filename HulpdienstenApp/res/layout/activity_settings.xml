@@ -59,4 +59,29 @@
         android:layout_marginTop="20dp"
         android:text="Automatically select country?" />
 
+    <Button
+        android:id="@+id/buttonRemoveUser"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewInfo"
+        android:layout_below="@+id/textViewInfo"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="20dp"
+        android:onClick="removeUserButton"
+        android:text="Remove User" />
+
+    <Button
+        android:id="@+id/buttonShowUser"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonRemoveUser"
+        android:layout_below="@+id/buttonRemoveUser"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="20dp"
+        android:onClick="showUserButton"
+        android:text="Show User Data" />
+
 </RelativeLayout>

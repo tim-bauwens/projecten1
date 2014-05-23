@@ -1,0 +1,1 @@
+execute "composer install" in the command line to install the silex repositories.

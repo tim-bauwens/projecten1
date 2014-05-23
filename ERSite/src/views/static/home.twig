@@ -1,0 +1,19 @@
+{# extend the parent tpl #}
+{% extends 'layout.twig' %}
+
+
+{# set the pagetitle in the parent tpl #}
+{% set pageTitle = 'Home' %}
+
+
+{# overwrite the pageContent block #}
+{% block pageContent %}
+	<div class="content">
+		<h2>What is Emergency Reporter</h2>
+		<p> 
+			Emergency reporter is a free application
+		</p>
+
+		<a href="{{ path('register')}}">Register</a>
+	</div>
+{% endblock %}

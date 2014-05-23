@@ -1,0 +1,29 @@
+{# extend the parent tpl #}
+{% extends 'layout.twig' %}
+
+
+{# set the pagetitle in the parent tpl #}
+{% set pageTitle = 'Home' %}
+
+
+{# overwrite the pageContent block #}
+{% block pageContent %}
+<cc1:EID_Read ID="EID_Reader" runat="server" Visible="false"/>
+
+  <div class="content">
+  	<a class="btn btn-primary" href="./id_lezen">Click here to read your ID card.</a>
+  	<form action="#" method="post" enctype="multipart/form-data">
+  	<div id="registerform">
+	  	{{form_widget(registerform)}}
+	 </div>
+     	 <input id="submit-button" type="submit" name="submit" value="submit" />
+  	 </form>
+  </div>
+	{% if errors %}
+		<ul>
+		{% for error in errors %}
+	   	 <li>{{ error}}</li>
+		{% endfor %}
+		</ul>
+	{% endif %}
+{% endblock %}

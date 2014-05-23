@@ -125,7 +125,6 @@ public class RegisterActivity extends Activity {
 		}
 		
 	    if(validUser){
-	    	dialog.setTitle("Login succesful!");
 	    	//add user data to SharedPreferences
 	    	SharedPreferences settings = getApplicationContext().getSharedPreferences("data", 0);
 	    	SharedPreferences.Editor editor = settings.edit();

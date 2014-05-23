@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>{{ pageTitle|raw }}</title>
+
+	<meta charset="UTF-8" />
+	<meta http-equiv="cleartype" content="on" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="{{ app.request.baseUrl }}/assets/css/reset.css">
+	<link rel="stylesheet" href="{{ app.request.baseUrl }}/assets/css/standard.css">
+
+</head>
+<body>
+
+
+	<div class="header">
+		<div class="pageWrap">
+			<h1><a href="{{ path('home') }}">Emergency Reporter Website</a></h1>
+			<div class="nav">
+				<ul>
+					<li><a href="{{ path('home') }}">Home</a></li>
+					<li><a href="{{ path('register') }}">Register</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="container">
+		{% block pageContent %}
+			Hello!
+		{% endblock %}
+	</div>
+
+</body>
+</html>
