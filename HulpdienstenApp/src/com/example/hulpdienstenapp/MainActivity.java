@@ -1,14 +1,12 @@
 
 package com.example.hulpdienstenapp;
 
-import com.example.hulpdienstenapp.R;
-
-import android.net.Uri;
-import android.os.Bundle;
 import android.app.Activity;
 import android.content.ActivityNotFoundException;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.net.Uri;
+import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 
@@ -17,10 +15,13 @@ public class MainActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        SharedPreferences settings = getApplicationContext().getSharedPreferences("data", 0);
+        boolean loggedIn = settings.getBoolean("loggedIn",false);
         //if not registered
-        //Intent intent = new Intent(this, RegisterActivity.class);
-        //startActivity(intent);
-        //else
+        if(!loggedIn){
+        	Intent intent = new Intent(this, RegisterActivity.class);
+            startActivity(intent);
+        }
         setContentView(R.layout.activity_main);
     }
 

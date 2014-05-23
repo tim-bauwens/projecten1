@@ -10,11 +10,9 @@ import org.apache.http.client.methods.HttpPost;
 import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.http.message.BasicNameValuePair;
 
-import com.example.hulpdienstenapp.MyLocation.LocationResult;
-import com.example.hulpdienstenapp.R;
-
 import android.app.Activity;
 import android.app.Dialog;
+import android.content.SharedPreferences;
 import android.location.Location;
 import android.os.Bundle;
 import android.os.StrictMode;
@@ -23,6 +21,8 @@ import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.ViewFlipper;
+
+import com.example.hulpdienstenapp.MyLocation.LocationResult;
 
 public class ReportActivity extends Activity {
 	
@@ -124,7 +124,11 @@ public class ReportActivity extends Activity {
     }
 
 	private void sendReportData(double[] coordinates, String location,String numVictims, String numWounded, String type,String description){
-	    //Add data to be send.
+	    //get user data
+		SharedPreferences settings = getApplicationContext().getSharedPreferences("data", 0);
+        String username = settings.getString("username","");
+        String password = settings.getString("password","");
+		//Add data to be send.
 	    ArrayList<NameValuePair> nameValuePairs = new ArrayList<NameValuePair>(7);
 	    nameValuePairs.add(new BasicNameValuePair("latitude", String.valueOf(coordinates[0])));
 	    nameValuePairs.add(new BasicNameValuePair("longitude", String.valueOf(coordinates[1])));
@@ -133,8 +137,9 @@ public class ReportActivity extends Activity {
 	    nameValuePairs.add(new BasicNameValuePair("numWounded", numWounded));
 	    nameValuePairs.add(new BasicNameValuePair("type", type));
 	    nameValuePairs.add(new BasicNameValuePair("description", description));
-	    //user id
-	    //user code?
+	    nameValuePairs.add(new BasicNameValuePair("username", username));
+	    nameValuePairs.add(new BasicNameValuePair("password", password));
+
 	    this.sendData(nameValuePairs);
 	}
 	

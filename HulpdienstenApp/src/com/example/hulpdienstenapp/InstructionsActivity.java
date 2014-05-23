@@ -1,7 +1,5 @@
 package com.example.hulpdienstenapp;
 
-import com.example.hulpdienstenapp.R;
-
 import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.os.Bundle;
