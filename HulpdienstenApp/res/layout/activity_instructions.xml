@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/ScrollView1"
     android:layout_width="match_parent"
     android:layout_height="wrap_content" >
@@ -27,7 +28,8 @@
             android:layout_below="@+id/textViewInfo"
             android:layout_marginRight="20dp"
             android:layout_marginTop="20dp"
-            android:text="This function is meant for witnesses of an emergency. Select the type of emergency you want to report and fill in the provided fields with information about the situation." />
+            android:text="This function is meant for witnesses of an emergency. Select the type of emergency you want to report and fill in the provided fields with information about the situation."
+            tools:ignore="HardcodedText" />
 
         <TextView
             android:id="@+id/textView4"
@@ -47,37 +49,30 @@
             android:layout_below="@+id/textView4"
             android:layout_marginRight="20dp"
             android:layout_marginTop="20dp"
-            android:text="Pressing this button will call the emergency number of the country you currently are. This number can be changed in the settings." />
-
-        <TextView
-            android:id="@+id/textView1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/textView5"
-            android:layout_below="@+id/textView5"
-            android:layout_marginTop="20dp"
-            android:text="@string/title_activity_help"
-            android:textAppearance="?android:attr/textAppearanceMedium" />
-
-        <TextView
-            android:id="@+id/textView6"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/textView1"
-            android:layout_below="@+id/textView1"
-            android:layout_marginRight="20dp"
-            android:layout_marginTop="20dp"
-            android:text="Pressing this button will immediatly notifiy the emergency situations that you yourself are in danger or in need of medical attention. This button is meant if you do not have the time to report the situation or are unable to call. This function should only be used in the most urgent emergencies!" />
+            android:text="Pressing this button will call the emergency number of the country you currently are. This number can be changed in the settings."
+            tools:ignore="HardcodedText" />
 
         <TextView
             android:id="@+id/textView7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/textView6"
-            android:layout_below="@+id/textView6"
+            android:layout_alignLeft="@+id/textView5"
+            android:layout_below="@+id/textView5"
             android:layout_marginTop="20dp"
             android:text="@string/title_activity_settings"
             android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView7"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:text="In the settings you can enable automatic country selection. This will set your current country to the one you are currently residing in. The emergency phonenumber will be adjust based on the country that is selected.\nThere is also a &quot;remove user&quot; button which will log out the current user."
+            tools:ignore="HardcodedText" />
 
     </RelativeLayout>
 

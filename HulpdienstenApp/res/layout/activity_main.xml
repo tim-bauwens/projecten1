@@ -5,60 +5,54 @@
     android:layout_height="match_parent" >
 
     <Button
-        android:id="@+id/buttonReport"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="60dp"
-        android:minHeight="60dp"
-        android:onClick="reportButton"
-        android:text="@string/title_activity_report" />
-
-    <Button
         android:id="@+id/ButtonCall"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
-        android:layout_below="@+id/buttonReport"
-        android:layout_marginTop="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="80dp"
         android:minHeight="60dp"
         android:onClick="callButton"
         android:text="@string/title_activity_call" />
 
     <Button
-        android:id="@+id/ButtonHelp"
+        android:id="@+id/buttonReport"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_below="@+id/ButtonCall"
-        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
         android:minHeight="60dp"
-        android:onClick="helpButton"
-        android:text="@string/title_activity_help" />
+        android:onClick="reportButton"
+        android:text="@string/title_activity_report" />
 
     <Button
         android:id="@+id/buttonHowto"
-        style="?android:attr/buttonStyleSmall"
-        android:layout_width="100dp"
+        style="android:buttonStyle"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_marginBottom="15dp"
-        android:layout_marginLeft="15dp"
+        android:layout_below="@+id/buttonSettings"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
         android:onClick="howToButton"
         android:text="@string/title_activity_instructions" />
 
     <Button
         android:id="@+id/buttonSettings"
-        style="?android:attr/buttonStyleSmall"
-        android:layout_width="100dp"
+        style="android:buttonStyle"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/buttonHowto"
-        android:layout_alignBottom="@+id/buttonHowto"
-        android:layout_alignParentRight="true"
-        android:layout_marginBottom="15dp"
-        android:layout_marginRight="15dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/buttonReport"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
         android:onClick="settingsButton"
         android:text="@string/title_activity_settings" />
 

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 	<array name = "countries" type="style">
-	    <item>XX:Test</item>
 		<item>AF:Afghanistan</item>
 		<item>AL:Albania</item>
 		<item>DZ:Algeria</item>
@@ -67,7 +66,6 @@
 		<item>DM:Dominica</item>
 		<item>DO:Dominican Republic</item>
 		<item>NQ:Dronning Maud Land</item>
-		<item>DD:East Germany</item>
 		<item>EC:Ecuador</item>
 		<item>EG:Egypt</item>
 		<item>SV:El Salvador</item>
@@ -268,9 +266,8 @@
 		<item>AX:Åland Islands</item>
 	</array>
 	<array name = "phonenumbers" type="style">
-	    <item name="XX:Test">0485008336</item>
 	    <item name="AF:Afghanistan"></item>
-	    <item name="AL:Albania"></item>
+	    <item name="AL:Albania">127</item>
 	    <item name="DZ:Algeria"></item>
 	    <item name="AS:American Samoa"></item>
 	    <item name="AD:Andorra"></item>
@@ -279,16 +276,16 @@
 	    <item name="AQ:Antarctica"></item>
 	    <item name="AG:Antigua and Barbuda"></item>
 	    <item name="AR:Argentina"></item>
-	    <item name="AM:Armenia"></item>
+	    <item name="AM:Armenia">112</item>
 	    <item name="AW:Aruba"></item>
-	    <item name="AU:Australia"></item>
-	    <item name="AT:Austria"></item>
-	    <item name="AZ:Azerbaijan"></item>
+	    <item name="AU:Australia">000</item>
+	    <item name="AT:Austria">112</item>
+	    <item name="AZ:Azerbaijan">112</item>
 	    <item name="BS:Bahamas"></item>
 	    <item name="BH:Bahrain"></item>
 	    <item name="BD:Bangladesh"></item>
 	    <item name="BB:Barbados"></item>
-	    <item name="BY:Belarus"></item>
+	    <item name="BY:Belarus">112</item>
 	    <item name="BE:Belgium">112</item>
 	    <item name="BZ:Belize"></item>
 	    <item name="BJ:Benin"></item>
@@ -296,14 +293,14 @@
 	    <item name="BT:Bhutan"></item>
 	    <item name="BO:Bolivia"></item>
 	    <item name="BA:Bosnia and Herzegovina"></item>
-	    <item name="BW:Botswana"></item>
+	    <item name="BW:Botswana">911</item>
 	    <item name="BV:Bouvet Island"></item>
 	    <item name="BR:Brazil"></item>
 	    <item name="BQ:British Antarctic Territory"></item>
 	    <item name="IO:British Indian Ocean Territory"></item>
 	    <item name="VG:British Virgin Islands"></item>
 	    <item name="BN:Brunei"></item>
-	    <item name="BG:Bulgaria"></item>
+	    <item name="BG:Bulgaria">112</item>
 	    <item name="BF:Burkina Faso"></item>
 	    <item name="BI:Burundi"></item>
 	    <item name="KH:Cambodia"></item>
@@ -315,7 +312,7 @@
 	    <item name="CF:Central African Republic"></item>
 	    <item name="TD:Chad"></item>
 	    <item name="CL:Chile"></item>
-	    <item name="CN:China"></item>
+	    <item name="CN:China">120</item>
 	    <item name="CX:Christmas Island"></item>
 	    <item name="CC:Cocos [Keeling] Islands"></item>
 	    <item name="CO:Colombia"></item>
@@ -326,15 +323,14 @@
 	    <item name="CR:Costa Rica"></item>
 	    <item name="HR:Croatia"></item>
 	    <item name="CU:Cuba"></item>
-	    <item name="CY:Cyprus"></item>
-	    <item name="CZ:Czech Republic"></item>
+	    <item name="CY:Cyprus">999</item>
+	    <item name="CZ:Czech Republic">112</item>
 	    <item name="CI:Côte d’Ivoire"></item>
 	    <item name="DK:Denmark"></item>
 	    <item name="DJ:Djibouti"></item>
 	    <item name="DM:Dominica"></item>
 	    <item name="DO:Dominican Republic"></item>
 	    <item name="NQ:Dronning Maud Land"></item>
-	    <item name="DD:East Germany"></item>
 	    <item name="EC:Ecuador"></item>
 	    <item name="EG:Egypt"></item>
 	    <item name="SV:El Salvador"></item>
@@ -354,7 +350,7 @@
 	    <item name="GA:Gabon"></item>
 	    <item name="GM:Gambia"></item>
 	    <item name="GE:Georgia"></item>
-	    <item name="DE:Germany"></item>
+	    <item name="DE:Germany">112</item>
 	    <item name="GH:Ghana"></item>
 	    <item name="GI:Gibraltar"></item>
 	    <item name="GR:Greece"></item>
@@ -444,7 +440,7 @@
 	    <item name="NO:Norway"></item>
 	    <item name="OM:Oman"></item>
 	    <item name="PC:Pacific Islands Trust Territory"></item>
-	    <item name="PK:Pakistan"></item>
+	    <item name="PK:Pakistan">115</item>
 	    <item name="PW:Palau"></item>
 	    <item name="PS:Palestinian Territories"></item>
 	    <item name="PA:Panama"></item>
@@ -517,8 +513,8 @@
 	    <item name="UA:Ukraine"></item>
 	    <item name="SU:Union of Soviet Socialist Republics"></item>
 	    <item name="AE:United Arab Emirates"></item>
-	    <item name="GB:United Kingdom"></item>
-	    <item name="US:United States"></item>
+	    <item name="GB:United Kingdom">112</item>
+	    <item name="US:United States">911</item>
 	    <item name="ZZ:Unknown or Invalid Region"></item>
 	    <item name="UY:Uruguay"></item>
 	    <item name="UZ:Uzbekistan"></item>

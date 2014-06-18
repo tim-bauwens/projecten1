@@ -138,7 +138,7 @@ public class RegisterActivity extends Activity {
 	    else{
 	    	//else give incorrect user data message
 	    	dialog.setTitle("Login failed!");
-	    	dialogText.setText("Incorrect username or password.");
+	    	//dialogText.setText("Incorrect username or password.");
 	    }
 	    dialog.show();
 	}
